@@ -1,3 +1,33 @@
-<h1>
-  {{title}}
-</h1>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse navbar-expand" id="navbarsExample">
+      <ul class="navbar-nav me-auto mb-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Справочники</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown01">
+            <li><a class="dropdown-item" href="#">Участки</a></li>
+            <li><a class="dropdown-item" href="index.html">Детали</a></li>
+            <li><a class="dropdown-item" href="index.html">Заявки</a></li>
+            <li><a class="dropdown-item" href="#">Пользователи</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="tracklist.html">Маршрутный лист</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="settings.html">Настройки</a>
+        </li>
+      </ul>
+
+      <form class="d-flex form-control-sm">
+        <div class="input-group input-group-sm mb-0">
+          <input class="form-control me-2" type="search" placeholder="abcd.123456.789" aria-label="Search">
+          <button class="btn btn-outline-success btn-sm" type="submit">Найти деталь</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</nav>
+<app-page></app-page>
+
+
